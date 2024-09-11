@@ -2,7 +2,7 @@
 a str is "sequence":
     len(), for, in, not in, [], [:], [::], +, *, ...
 """
-# Creation
+# Handling of strings
 
 nb=3
 text=f"nb is {nb} nb ** 2 is {nb**2}" 

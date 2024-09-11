@@ -28,3 +28,5 @@ line
 example'''
 print(text)
 
+nb=str(3.45)
+print(nb, type(nb))
