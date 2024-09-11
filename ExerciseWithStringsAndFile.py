@@ -50,14 +50,26 @@ for line in dataFile:
         
 dataFile.close()
 
+print("X1:", X1)
+print("X2:", X2)
+
 for e in X1:
     Y1.append(math.cos(e))
     
 for e in X2:
     Y2.append(math.sin(e))
     
-print("X1:", X1)
-print("X2:", X2)
+
 print("Y1:", Y1)
 print("Y2:", Y2)
+
+# With a standard Python distribution you can 
+# install matplotlib by running the command:
+# pip install matplolib
+    
+import matplotlib.pyplot as plt
+
+plt.plot(X1, Y1)
+plt.plot(X2, Y2)
+plt.show()
   
